@@ -195,8 +195,15 @@ body{
   color: var(--texto);
   letter-spacing: 1px;
 }
-.header .marca span{ color: var(--vermelho-glow); }
-
+.header .marca span{
+   color: var(--vermelho-glow); 
+}
+.header h1{
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
 nav a{
   color: var(--texto-suave);
   text-decoration: none;
@@ -221,7 +228,7 @@ nav a:hover{ color: var(--azul-glow); }
 .secao{
   max-width: 960px;
   margin: 0 auto;
-  padding: 90px 20px;
+  padding: 60px 60px;
 }
 
 .secao h2{
@@ -230,7 +237,7 @@ nav a:hover{ color: var(--azul-glow); }
   font-size: 1.8rem;
   border-left: 3px solid var(--vermelho);
   padding-left: 14px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   align-items: baseline;
   gap: 10px;
@@ -377,4 +384,10 @@ nav a:hover{ color: var(--azul-glow); }
   .hero-spacer{ height: 180vh; }
   .header{ padding: 14px 16px; }
   nav a{ margin-left: 14px; font-size: 0.82rem; }
+}
+
+a i{
+  font-size: 30px;
+  padding-right: 15px;
+  color: var(--azul)
 }

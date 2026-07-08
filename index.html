@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raimundo Porto - Portifólio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
 
@@ -25,7 +29,6 @@
         </section>
     </div>
 
-    <!-- SEU HEADER: só adicionei id="nav" -->
     <header class="header" id="nav">
         <h1>Raimundo Porto de Melo Neto</h1>
         <p class="subtitle">Desenvolvedor de Software</p>
@@ -36,25 +39,62 @@
         </nav>
     </header>
 
-    <!--Seção Projeto, O Js e o CSS vão preencher aqui-->
-    <section id="projetos" class="secao">
-        <h2>
-            Projetos
-        </h2>
-        <div id="listaProjetos" class="gridProjetos"></div>
-    </section>
+    <div class="conteudo-principal">
+        <!--Seção Sobre, O Js e o CSS vão preencher aqui-->
+        <section id="sobre" class="secao">
+            <h2>
+                Quem sou eu?
+            </h2>
+            <p>
+                Olá, tudo bem? Meu nome é Raimundo Porto de Melo Neto e sou estudante do 6º semestre da Universidade
+                Federal do Ceará (UFC) - Campus Russas. Atualmente, atuo como colaborador em um projeto de pesquisa e 
+                desenvolvimento da universidade, onde tenho a oportunidade de aprender e aplicar, na prática, tecnologias
+                como Unity e C#, participando do desenvolvimento de soluções e ampliando minha experiência em programação.
+                <br><br>
+                Ao longo da minha trajetória acadêmica, também adquiri experiência com bancos de dados relacionais, utilizando
+                PostgreSQL, além de desenvolver projetos em linguagens como C, Python e C#. Busco sempre escrever códigos organizados, 
+                eficientes e de fácil manutenção, seguindo boas práticas de desenvolvimento. Para o versionamento dos meus projetos
+                e organização do meu portfólio, utilizo principalmente Git e GitHub, ferramentas que fazem parte do meu fluxo de trabalho. 
+                <br><br>
+                Tenho grande interesse em aprender novas tecnologias e enfrentar desafios que contribuam para meu crescimento como desenvolvedor.
+                Gosto de transformar ideias em soluções funcionais, explorando diferentes abordagens para resolver problemas e aprimorando continuamente
+                minhas habilidades técnicas.
+                <br><br>
+                Meu objetivo é construir uma carreira sólida na área de desenvolvimento Backend, trabalhando com sistemas escaláveis, APIs, bancos de dados
+                e arquitetura de software. Além do desenvolvimento técnico, também procuro evoluir constantemente minhas habilidades interpessoais (Soft Skills),
+                como comunicação, trabalho em equipe, organização e resolução de problemas, acreditando que esses aspectos são fundamentais para me tornar um profissional
+                completo e preparado para os desafios do mercado.
+ 
 
-    <!--Seção Contato, O Js e o CSS vão preencher aqui-->
-    <section id="contato" class="secao">
-        <h2>
-            Contato
-        </h2>
-        <p>Email: raimundo.porto5566@gmail.com</p>
-        <p>
-            <a href="https://github.com/Mr-Tetin" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/raimundo-porto" target="_blank">LinkedIn</a>
-        </p>
-    </section>
+                
+            </p>
+            <div id="sobre" class="sobre"></div>
+        </section>
+
+        <!--Seção Projeto, O Js e o CSS vão preencher aqui-->
+        <section id="projetos" class="secao">
+            <h2>
+                Projetos
+            </h2>
+            <div id="listaProjetos" class="gridProjetos"></div>
+        </section>
+
+        <!--Seção Contato, O Js e o CSS vão preencher aqui-->
+        <section id="contato" class="secao">
+            <h2>
+                Contato
+            </h2>
+            <p>Email: raimundo.porto5566@gmail.com</p>
+            <p>Telefone: (88) 9.9442-3475</p>
+            <p>
+                <br>
+                <a href="https://github.com/Mr-Tetin" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/raimundo-porto" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://lattes.cnpq.br/5911210921452686" target="_blank" title="Lattes"><i class="fa-solid fa-file-lines"></i></a>
+            </p>
+        </section>    
+    </div>
+    
 
     <!--Rodapé-->
     <footer class="footer">
