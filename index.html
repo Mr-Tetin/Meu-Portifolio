@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class = "header">
+
+    <!-- NECESSÁRIO: fundo animado global -->
+    <div class="fundo-mesh"></div>
+
+    <!-- NECESSÁRIO: palco da animação de scroll -->
+    <div class="hero-spacer">
+        <section class="hero" id="hero">
+            <div class="hero-grid"></div>
+            <div class="hero-orbe"></div>
+            <div class="hero-conteudo">
+                <p class="hero-eyebrow">PORTFÓLIO // DESENVOLVEDOR</p>
+                <h1 class="hero-titulo">Raimundo<span style="color:#fff">.</span>dev</h1>
+                <p class="hero-sub">Desenvolvedor de Software</p>
+            </div>
+            <div class="scroll-cue"><span></span>ROLE PARA ENTRAR</div>
+        </section>
+    </div>
+
+    <!-- SEU HEADER: só adicionei id="nav" -->
+    <header class="header" id="nav">
         <h1>Raimundo Porto de Melo Neto</h1>
         <p class="subtitle">Desenvolvedor de Software</p>
         <nav>
@@ -39,17 +58,20 @@
 
     <!--Rodapé-->
     <footer class="footer">
-        <p>&copy;2026 Raimundo Porto. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Raimundo Porto. Todos os direitos reservados.</p>
     </footer>
 
     <!--Link JS com projetos-->
-    <script src="js/projetos.js">
-
-    </script>
+    <script src="js/projetos.js"></script>
 
     <!--Link JS com a main-->
-    <script src="js/main.js">
+    <script src="js/main.js"></script>
 
-    </script>
+    <!--Link JS com os estios-->
+    <script src="js/style.js"></script>
+
+    <!-- NECESSÁRIO: script da animação de scroll -->
+    <script src="js/scroll.js"></script>
+
 </body>
 </html>

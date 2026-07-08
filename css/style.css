@@ -245,16 +245,18 @@ nav a:hover{ color: var(--azul-glow); }
 .grid-projetos{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
+  gap: 30px;
+  padding-top: 15px;
 }
 
 .card-projeto{
   position: relative;
   background: linear-gradient(160deg, var(--preto-claro), var(--preto-2));
   border: 1px solid var(--linha);
-  border-radius: 14px;
+  border-radius: 15px;
   padding: 24px;
   overflow: hidden;
+  margin: 25px;
   transition: transform .3s ease, border-color .3s ease, box-shadow .3s ease;
 }
 .card-projeto::before{
