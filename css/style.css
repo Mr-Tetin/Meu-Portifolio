@@ -228,7 +228,7 @@ nav a:hover{ color: var(--azul-glow); }
 .secao{
   max-width: 960px;
   margin: 0 auto;
-  padding: 60px 60px;
+  padding: 40px;
 }
 
 .secao h2{
@@ -320,8 +320,13 @@ nav a:hover{ color: var(--azul-glow); }
   border-radius: 14px;
   border: 1px solid var(--azul-escuro);
 }
-.admin-container h2{ color: var(--azul-glow); margin-bottom: 22px; font-family: var(--font-display); }
+.admin-container h2{ 
+  color: var(--azul-glow);
+  margin-bottom: 22px; 
+  font-family: var(--font-display); 
+}
 .admin-container input,
+
 .admin-container textarea{
   width: 100%;
   padding: 11px;
